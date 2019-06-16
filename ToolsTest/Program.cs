@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Firefox;
+using System;
 
 namespace ToolsTest
 {
@@ -6,7 +8,11 @@ namespace ToolsTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IWebDriver driver = new FirefoxDriver(Environment.CurrentDirectory)
+            {
+                Url = "https://www.google.com/"
+            };
+            driver.Close();
         }
     }
 }
