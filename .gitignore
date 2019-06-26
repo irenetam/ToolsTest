@@ -1,3 +1,5 @@
-/ToolsTest/obj
-/ToolsTest/bin
-/ToolsTest/.vs
+/ToolQA/packages
+/ToolQA/ToolQA/bin
+/ToolQA/ToolQA/obj
+/ToolQA/UnitTestProject_EFMS/bin
+/ToolQA/UnitTestProject_EFMS/obj

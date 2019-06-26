@@ -1,0 +1,6 @@
+{
+  "TargetUrl": "http://test.efms.itlvn.com",
+  "TargetHomeUrl": "http://test.efms.itlvn.com/en/#/home/dashboard",
+  "DriverToUse": "Chrome",
+  "TestDataSheetPath": "D:\\Research\\AutoTest\\ToolQA\\UnitTestProject_EFMS\\TestDataAccess"
+}
