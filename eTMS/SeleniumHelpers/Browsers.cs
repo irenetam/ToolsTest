@@ -5,13 +5,10 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Text;
 
-namespace UnitTestProject_EFMS.SeleniumHelpers
+namespace eTMS.SeleniumHelpers
 {
-    public class Browsers
+    public static class Browsers
     {
         private static IWebDriver webDriver;
 
@@ -40,7 +37,7 @@ namespace UnitTestProject_EFMS.SeleniumHelpers
         {
             get { return webDriver.Title; }
         }
-        public static IWebDriver getDriver
+        public static IWebDriver GetDriver
         {
             get
             {
